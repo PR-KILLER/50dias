@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table,th,td {border: 1px solid #000;}
+        th,td{padding: 7px;}
+        .nome {background-color:red;}
+        .email {background-color:green;}
+        .telefone {background-color:blue;}
+        .cargo {background-color:yellow;}
+    </style>
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <table>
+        <caption>
+            Cadastro de clientes
+        </caption>
+        <colgroup>
+        <col class="nome">
+        <col class="email">
+        <col class="telefone">
+        <col class="cargo">
+        </colgroup>
+        <thead>
+        <tr>
+            <th>Nome:</th>
+            <th>Email:</th>
+            <th>Telefone:</th>
+            <th>Cargo:</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Mikhael</td>
+            <td>mikhacordeiro@gmail.com</td>
+            <td>(81) 9 9996-5924</td>
+            <td rowspan="2">Desenvolvedo de sistemas</td>
+        </tr>
+        </tbody>
+        <tbody>
+        <tr>
+            <td>Rogerio</td>
+            <td>Rogerio@gmail.com</td>
+            <td>(11) 9 9896-5924</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="4">Total:2</td>
+        </tr>
+         </tfoot>
+
+    </table>
+    
+</body>
+</html>
