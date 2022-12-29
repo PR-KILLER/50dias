@@ -1,0 +1,17 @@
+*{
+    box-sizing:border-box;
+}
+.flex-pai{
+    background:blue;
+    display:flex;
+    flex-direction:row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.flex-pai div{
+    background:white;
+    border:1px solid black;
+    margin:20px;
+    padding:30px;
+    text-align:center;
+}
