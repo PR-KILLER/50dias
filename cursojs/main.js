@@ -1,19 +1,9 @@
-const x = '';
-// FALSE
+//Selecionar apenas um elemento
+//const addUserText = document.getElementById("add-user");
+//const addUserText = document.querySelector('Badd-user');
+//const myForm = document.querySelector(".item");
 
-const y = 0;
-console.log(!!x);
-// FALSE
-
-const a = null;
-const b = undefined;
-console.log(!!b);
-// FALSE
-
-const list = [];
-const object = {};
-console.log(!!object)
-
-if (list.length === 0) {
-    console.log(list)
-}
+//Selecionar múltiplos elementos
+//const aliItems = document.querySelectorAll(".items .item");
+const aliItems = document.getElementsByTagName("li");
+console.log(aliItems)
